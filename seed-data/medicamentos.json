@@ -1,0 +1,22 @@
+[
+    {
+        "nombre": "Losartán 50mg",
+        "descripcion": "Antihipertensivo",
+        "stockMinimo": 60
+    },
+    {
+        "nombre": "Metformina 850mg",
+        "descripcion": "Antidiabético oral",
+        "stockMinimo": 80
+    },
+    {
+        "nombre": "Atorvastatina 20mg",
+        "descripcion": "Hipolipemiante",
+        "stockMinimo": 45
+    },
+    {
+        "nombre": "Omeprazol 20mg",
+        "descripcion": "Inhibidor de bomba de protones",
+        "stockMinimo": 100
+    }
+]

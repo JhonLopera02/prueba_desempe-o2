@@ -1,0 +1,36 @@
+name: riwimedicare
+
+services:
+  api:
+    build: .
+    container_name: riwimedicare-api
+    ports:
+      - "3000:3000"
+    environment:
+      DATABASE_URL: postgres://postgres:123456@postgres:5432/clanes_db
+      PORT: 3000
+      JWT_SECRET: un_secreto_super_seguro_cambia_esto
+    depends_on:
+      - postgres
+    networks:
+      - red-interna
+
+  postgres:
+    image: postgres:16
+    container_name: postgres-centurion
+    environment:
+      POSTGRES_DB: clanes_db
+      POSTGRES_PASSWORD: 123456
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - red-interna
+
+volumes:
+  postgres_data:
+
+networks:
+  red-interna:
+    driver: bridge

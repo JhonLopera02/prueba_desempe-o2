@@ -1,0 +1,20 @@
+[
+    {
+        "nombre": "Clínica Central Medición",
+        "nit": "900500001-1",
+        "direccion": "Av. El Dorado #45-60",
+        "telefono": "6017001234"
+    },
+    {
+        "nombre": "Clínica Salud Total",
+        "nit": "900500002-2",
+        "direccion": "Calle 72 #10-30",
+        "telefono": "6017005678"
+    },
+    {
+        "nombre": "Clínica del Café",
+        "nit": "900500003-3",
+        "direccion": "Carrera 23 #18-50",
+        "telefono": "6064209000"
+    }
+]

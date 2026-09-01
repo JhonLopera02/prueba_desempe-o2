@@ -1,0 +1,14 @@
+[
+    {
+        "nombre": "Almacén Sur",
+        "ubicacion": "Cra 50 Sur #12-80"
+    },
+    {
+        "nombre": "Almacén Occidente",
+        "ubicacion": "Av. Las Américas #68-20"
+    },
+    {
+        "nombre": "Almacén Oriente",
+        "ubicacion": "Calle 80 #2-43"
+    }
+]
